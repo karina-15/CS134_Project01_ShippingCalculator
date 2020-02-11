@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculadora de envío</string>
+    <string name="added_cost_label">Costo agregado:</string>
+    <string name="base_cost_default">3</string>
+    <string name="base_cost_label">Costo base:</string>
+    <string name="default_weight">0</string>
+    <string name="total_shipping_cost_label">Costo total de envío:</string>
+    <string name="units_label">(en onzas)</string>
+    <string name="weight_of_package_label">Peso del paquete</string>
+    <string name="cost_default">$0.00</string>
+</resources>
