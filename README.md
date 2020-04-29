@@ -3,4 +3,4 @@
 > weight and additional cost
 
 ## Screenshot
-[![app screenshot](screenshot.png)]()
+<img src="./screenshot.png" height="550">
