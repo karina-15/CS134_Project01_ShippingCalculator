@@ -3,14 +3,14 @@
 > weight and additional cost
 
 ## Screenshot
-<img src="./screenshot.png" height="550">
+<img src="./screenshot/screenshot.png" height="550">
 
 ## Instructions
 As our first hands-on introduction to the Model-View-Controller design pattern, we will be
 implementing a Shipping Calculator to keep track of the cost to ship a package, given factors such
 as base cost, weight and additional cost.
 
-<img src="https://miracosta.instructure.com/courses/20116/files/2191305/download">
+<img src="./screenshot/ShippingCalculatorDesign.png">
 
 We will be utilizing a ConstraintLayout to group all of the Views presented in this app together.
 A constraint layout organizes widgets with margins relative to other widgets on screen.
@@ -25,7 +25,7 @@ can quickly modify the package weight), the inputType should be "number" and it 
 Basically, when the app starts, the focus should go to the weightEditText widget and the soft
 keyboard for numbers should immediately appear.
 
-<img src="https://miracosta.instructure.com/courses/20116/files/2191087/download" height="550">
+<img src="./screenshot/ShippingCalculatorComplete.png" height="550">
 
 **Logistics for Calculating Shipping Costs (in the Model):**
    All items to be shipped will have a base cost of $3.00 for the first 16 ounces (including 16)
@@ -37,7 +37,7 @@ keyboard for numbers should immediately appear.
    that must be stored and calculated to compute shipping costs.  All calculations should be done in
    ShipItem.
 
-   *NO CALCULATIONS* should be made in the Controller (MainActivity.java) or View (activity_main.xml)
+   `NO CALCULATIONS` should be made in the Controller (MainActivity.java) or View (activity_main.xml)
 
 **Tasks to Accomplish in the Controller:**
    Add a textChangedListener to the weightEditText widget.
