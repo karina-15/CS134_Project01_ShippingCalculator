@@ -10,7 +10,7 @@ As our first hands-on introduction to the Model-View-Controller design pattern, 
 implementing a Shipping Calculator to keep track of the cost to ship a package, given factors such
 as base cost, weight and additional cost.
 
-<img src="./screenshots/ShippingCalculatorDesign.png">
+<img src="./screenshots/ShippingCalculatorDesign.png" width="550">
 
 We will be utilizing a ConstraintLayout to group all of the Views presented in this app together.
 A constraint layout organizes widgets with margins relative to other widgets on screen.
